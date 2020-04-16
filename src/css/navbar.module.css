@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.25rem;
+    background-color: #051f1e
   }
   .logo-btn {
     background: transparent;
@@ -29,6 +30,8 @@
   .nav-links a {
     display: block;
     padding: 1rem 1.25rem;
+    margin-left: 1rem; 
+    /* line 33 added to fix links */
     text-decoration: none;
     text-transform: capitalize;
     color: var(--mainBlack);
