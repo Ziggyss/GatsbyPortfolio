@@ -1,10 +1,8 @@
-import React from 'react'
+import React from "react"
+import Layout from "../components/Layout"
 
-export const projects = () => {
-    return (
-        <div>
-            Hello from the projects page...
-        </div>
-    )
+const projects = () => {
+  return <Layout>Hello from the projects page...</Layout>
 }
 
+export default projects
