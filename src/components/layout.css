@@ -4,7 +4,8 @@
   --primaryColor: #d1e8e2;
   --mainWhite: #fff;
   --offWhite: #ffe6d5;
-  --mainBlack: #222;
+  --mainBlack: #d9b08c;
+  /* this is not main black anymore - change later */
   --mainGrey: #ececec;
   --darkGrey: #afafaf;
   --mainTransition: all 0.3s linear;
