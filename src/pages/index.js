@@ -4,6 +4,7 @@ import Layout from "../components/Layout"
 import SimpleHero from "../components/SimpleHero"
 import Banner from "../components/Banner"
 import About from "../components/Home/About"
+import Skills from "../components/Home/Skills"
 export default () => (
   <>
     <Layout>
@@ -19,6 +20,7 @@ export default () => (
         </Banner>
       </SimpleHero>
       <About />
+      <Skills />
     </Layout>
   </>
 )
