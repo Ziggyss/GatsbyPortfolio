@@ -4,8 +4,13 @@
   --primaryColor: #d1e8e2;
   --mainWhite: #fff;
   --offWhite: #ffe6d5;
-  --mainBlack: #d9b08c;
-  /* this is not main black anymore - change later */
+  --mainBlack: #0b0c10;
+  --mint: #d1e8e2;
+  --darkPeach: #d9b08c;
+  --darkestGrey: #2c3531;
+  --darkGreen: #051f1e;
+  --midGreen: #116466;
+  --brightGreen: #019a87;
   --mainGrey: #ececec;
   --darkGrey: #afafaf;
   --mainTransition: all 0.3s linear;

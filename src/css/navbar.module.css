@@ -38,7 +38,7 @@
     /* line 33 added to fix links */
     text-decoration: none;
     text-transform: capitalize;
-    color: var(--mainBlack);
+    color: var(--brightGreen);
     transition: var(--mainTransition);
     font-weight: bold;
     letter-spacing: var(--mainSpacing);
@@ -81,7 +81,7 @@
       transition: var(--mainTransition);
     }
     .nav-social-links a:hover {
-      color: var(--mainBlack);
+      color: var(--darkPeach);
       transform: translateY(-5px);
     }
   }

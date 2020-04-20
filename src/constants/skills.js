@@ -9,6 +9,7 @@ import {
   DiPython,
   DiGithubAlt,
   DiGit,
+  DiPhotoshop,
 } from "react-icons/di"
 
 export default [
@@ -56,5 +57,10 @@ export default [
     icon: <DiGit />,
     title: "Git",
     text: "blalkasdf;jasdf;oijasld;kjflkasjdflkjasdflkjasdlkfj",
+  },
+  {
+    icon: <DiPhotoshop />,
+    title: "Photoshop",
+    text: "asldkjfalsjdfalksdjflasjdflaksjdflkjasdf",
   },
 ]
