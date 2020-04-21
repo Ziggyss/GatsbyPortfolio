@@ -1,5 +1,5 @@
 .skills {
-    background: var(--mainGrey);
+    background: var(--mint);
     padding: 4rem 0;
   }
   .center {
@@ -14,7 +14,8 @@
     text-align: center;
   }
   .skill span {
-    background: var(--primaryColor);
+    background: var(--darkGreen);
+    color: white;
     padding: 0.5rem;
     display: inline-block;
     font-size: 2rem;
