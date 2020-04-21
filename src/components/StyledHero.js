@@ -19,6 +19,7 @@ export default styled(StyledHero)`
   background-position: center;
   background-size: cover;
   opacity: 1 !important;
+  /* Opacity needs to be 1 if I want to apply a linear gradient to the background */
   display: flex;
   justify-content: center;
   align-items: center;
