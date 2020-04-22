@@ -6,7 +6,7 @@ import { graphql } from "gatsby"
 const projects = props => {
   return (
     <Layout>
-      <StyledHero img={props.data.hex.childImageSharp.fluid} />
+      <StyledHero img={props.data.green.childImageSharp.fluid} />
       Hello from the projects page...
     </Layout>
   )
@@ -14,7 +14,7 @@ const projects = props => {
 
 export const query = graphql`
   query {
-    hex: file(relativePath: { eq: "hex.jpeg" }) {
+    green: file(relativePath: { eq: "green.jpeg" }) {
       childImageSharp {
         fluid(maxWidth: 4160, quality: 90) {
           ...GatsbyImageSharpFluid_withWebp

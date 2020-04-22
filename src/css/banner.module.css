@@ -1,26 +1,34 @@
 .banner {
-    text-align: center;
-    letter-spacing: var(--mainSpacing);
-    color: var(--mainWhite);
-  }
+  text-align: left;
+  letter-spacing: var(--mainSpacing);
+  color: var(--mainWhite);
+}
+.banner h1 {
+  font-size: 3.3rem;
+  /* text-transform: uppercase; */
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+  letter-spacing: 3px;
+  color: var(--mint);
+}
+
+.banner span{
+  color: var(--darkPeach)
+}
+
+.banner p {
+  width: 100%;
+  text-align: left;
+  padding: 0 1rem;
+  /* margin: 0 auto; */
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) {
   .banner h1 {
-    font-size: 3.3rem;
-    /* text-transform: uppercase; */
-    margin-bottom: 2rem;
-    padding: 0 1rem;
-    letter-spacing: 6px;
+    font-size: 4.5rem;
   }
   .banner p {
-    width: 85%;
-    margin: 0 auto;
-    margin-bottom: 2rem;
+    width: 70%;
   }
-  @media screen and (min-width: 768px) {
-    .banner h1 {
-      font-size: 4.5rem;
-    }
-    .banner p {
-      width: 70%;
-    }
-  }
-  
+}

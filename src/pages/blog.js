@@ -7,7 +7,7 @@ const blog = ({data}) => {
   return (
     
       <Layout>
-        <StyledHero img={data.blogBcg.childImageSharp.fluid} />
+        <StyledHero img={data.green.childImageSharp.fluid} />
       </Layout>
     
   )
@@ -15,7 +15,7 @@ const blog = ({data}) => {
 
 export const query = graphql`
   query {
-    blogBcg: file(relativePath: { eq: "blogBcg.jpeg" }) {
+    green: file(relativePath: { eq: "green.jpeg" }) {
       childImageSharp {
         fluid(maxWidth: 4160, quality: 90) {
           ...GatsbyImageSharpFluid_withWebp

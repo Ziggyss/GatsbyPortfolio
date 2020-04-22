@@ -14,9 +14,9 @@
     text-align: center;
   }
   .skill span {
-    background: var(--darkGreen);
+    background: var(--darkestGrey);
     color: white;
-    padding: 0.5rem;
+    padding: 0.3rem;
     display: inline-block;
     font-size: 2rem;
     margin-bottom: 1.5rem;

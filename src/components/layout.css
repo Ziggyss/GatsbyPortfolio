@@ -66,19 +66,20 @@ a {
   display: inline-block;
   transition: var(--mainTransition);
   cursor: pointer;
+  
 }
 .btn-white:hover {
   background: var(--mainWhite);
-  color: var(--primaryColor);
+  color: var(--midGreen);
 }
 .btn-primary {
-  background: var(--primaryColor);
+  background: var(--midGreen);
   color: var(--mainWhite);
-  border: 2px solid var(--primaryColor);
+  border: 2px solid var(--midGreen);
 }
 .btn-primary:hover {
   background: transparent;
-  color: var(--primaryColor);
+  color: var(--midGreen);
 }
 /* .gatsby-image-wrapper {
   max-height: 600px;
