@@ -7,7 +7,7 @@ import { graphql } from "gatsby"
 const projects = props => {
   return (
     <Layout>
-      <StyledHero img={props.data.green.childImageSharp.fluid} />y
+      <StyledHero img={props.data.green.childImageSharp.fluid} />
       <Projects />
     </Layout>
   )
