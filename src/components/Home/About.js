@@ -29,15 +29,14 @@ const About = () => {
           </div>
         </article>
         <article className={styles.aboutInfo}>
-          <h4>blahblah blah</h4>
+          {/* <h4></h4> */}
           <p>
-            bladn gaoinasdoifna asldkf aslkfm asdfj aslkfn asldkf asdkf asldkfj
-            alskdjf aslkdjf.
+            I'm a creative, full stack web developer with a love of nature, animals, photography and design. I am most passionate about creating beautiful web applications that can solve some of life's problems in an earth-friendly, sustainable way.
           </p>
           <p>
-            bladn gaoinasdoifna asldkf aslkfm asdfj aslkfn asldkf asdkf asldkfj
-            alskdjf aslkdjf.
+           I recently completed a 10-month, fully remote course in full stack web development and computer science with <a href="www.lambdaschool.com">Lambda School,</a> learning a variety of new skills and technologies, including Javascript, React, NodeJs and PostgreSQL.
           </p>
+          <p>In my spare time I'm a gamer, a gardener, a mother, a writer, a photographer and a multiple pet owner. I've also been known to make the odd person laugh.</p>
           <AniLink to="/contact" type="button" className="btn-primary">
             Contact me
           </AniLink>
