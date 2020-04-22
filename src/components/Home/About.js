@@ -29,7 +29,7 @@ const About = () => {
           </div>
         </article>
         <article className={styles.aboutInfo}>
-          {/* <h4></h4> */}
+          <h4>Who Am I?</h4>
           <p>
             I'm a creative, full stack web developer with a love of nature, animals, photography and design. I am most passionate about creating beautiful web applications that can solve some of life's problems in an earth-friendly, sustainable way.
           </p>
