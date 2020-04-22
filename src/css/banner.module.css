@@ -12,8 +12,8 @@
   color: var(--mint);
 }
 
-.banner span{
-  color: var(--darkPeach)
+.banner span {
+  color: var(--darkPeach);
 }
 
 .banner p {
@@ -22,6 +22,7 @@
   padding: 0 1rem;
   /* margin: 0 auto; */
   margin-bottom: 2rem;
+  color: var(--mint);
 }
 
 @media screen and (min-width: 768px) {
