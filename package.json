@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
+    "dotenv": "^8.2.0",
     "gatsby": "^2.20.12",
     "gatsby-background-image": "^1.1.1",
     "gatsby-image": "^2.3.4",
@@ -22,6 +23,7 @@
     "gatsby-plugin-sharp": "^2.5.6",
     "gatsby-plugin-styled-components": "^3.2.2",
     "gatsby-plugin-transition-link": "^1.18.0",
+    "gatsby-source-contentful": "^2.2.9",
     "gatsby-source-filesystem": "^2.2.4",
     "gatsby-transformer-sharp": "^2.4.6",
     "gsap": "^3.2.6",
