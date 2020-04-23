@@ -36,7 +36,7 @@ const About = () => {
           <p>
            I recently completed a 10-month, fully remote course in full stack web development and computer science with <a href="www.lambdaschool.com">Lambda School,</a> learning a variety of new skills and technologies, including Javascript, React, NodeJs and PostgreSQL.
           </p>
-          <p>In my spare time I'm a gamer, a gardener, a mother, a writer, a photographer and a multiple pet owner. I've also been known to make the odd person laugh.</p>
+          <p>In my spare time I'm a gamer, a gardener, a mother, a writer, a photographer and a multiple pet owner. I've also been told that I make people laugh.</p>
           <AniLink to="/contact" type="button" className="btn-primary">
             Contact me
           </AniLink>
