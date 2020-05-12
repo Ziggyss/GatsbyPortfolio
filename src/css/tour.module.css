@@ -75,7 +75,7 @@
 }
 .country {
   text-transform: capitalize;
-  color: var(--primaryColor);
+  color: var(--midGreen);
   display: flex;
   align-items: center;
 }
