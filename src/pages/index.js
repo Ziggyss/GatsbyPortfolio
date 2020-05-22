@@ -7,8 +7,10 @@ import Skills from "../components/Home/Skills"
 import StyledHero from "../components/StyledHero"
 import { graphql } from "gatsby"
 import styled from "styled-components"
+import SEO from "../components/SEO"
 export default ({ data }) => (
   <Layout>
+    <SEO title="Home"  />
     <StyledHero home="true" img={data.defaultHero.childImageSharp.fluid}>
       <Banner
         title="Hello,"

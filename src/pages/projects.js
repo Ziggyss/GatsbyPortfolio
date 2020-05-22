@@ -3,10 +3,12 @@ import Layout from "../components/Layout"
 import StyledHero from "../components/StyledHero"
 import Projects from "../components/Projects/Projects"
 import { graphql } from "gatsby"
+import SEO from "../components/SEO"
 
 const projects = props => {
   return (
     <Layout>
+      <SEO title="Projects" />
       <StyledHero img={props.data.green.childImageSharp.fluid} />
       <Projects />
     </Layout>

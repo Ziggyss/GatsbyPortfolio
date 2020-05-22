@@ -14,8 +14,13 @@ module.exports = {
     title: "Lisa Wilton, Web Developer",
     description: "Belfast-based creative full stack web developer",
     author: "@lisawilton",
+    twitterUsername: "@LisaWiltonDev",
+    image: "/Home.png",
+    siteUrl: "https://www.lwilton.com",
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -30,6 +35,15 @@ module.exports = {
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
     },
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://www.lwilton.com",
+        sitemap: "https://www.lwilton.com/sitemap.xml",
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
+
     `gatsby-plugin-styled-components`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
