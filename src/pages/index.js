@@ -16,7 +16,7 @@ export default ({ data }) => (
         title="Hello,"
         subtitle="I'm "
         name="Lisa."
-        info="I'm a web developer from Belfast with a passion for creativity, design and nature. Welcome to my site. "
+        info="I'm a UX Engineer from Belfast with a passion for creativity, design and nature. Welcome to my site. "
       >
         <StyledButton fade to="/projects" className="btn-white">
           Explore Projects
